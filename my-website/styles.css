@@ -3,6 +3,13 @@
 
 html{
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+ *, ::before,::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -12,12 +19,17 @@ nav {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
     margin-bottom: 2rem;
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #3D277A;
+    color: #800080;
     letter-spacing: 1px;
 }
 
@@ -25,4 +37,19 @@ nav {
     list-style: none;
     display: flex;
     gap: 2rem;
+
+}
+
+.nav-links li a {
+    position: relative;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #800080;
+    text-shadow: 0 0 10px #3D277A;
 }
