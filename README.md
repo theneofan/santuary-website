@@ -4,6 +4,6 @@ Final project for minecraft and web design 2026
 
 Mood Board
 
-![moodboard](image/README/moodboardupdated.png)
+![moodboard](image/README/moodboardUpdated.png)
 
 ![sitemap](image/README/sitemap.png)
