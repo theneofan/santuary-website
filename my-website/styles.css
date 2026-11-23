@@ -195,3 +195,20 @@ label {
   padding: 13px 5px;
   border-radius: 0.375rem;
 }
+
+.socialLinks {
+    text-decoration: none;
+    padding-left: 10px;
+    color: #551A8B; 
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+    
+}
+
+table, th, td {
+  border: none;
+  border-collapse: collapse; /* Removes default spacing between cells */
+}
