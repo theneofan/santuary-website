@@ -58,7 +58,7 @@ nav {
 h1{
     color: white;
 }
-
+/*
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -92,7 +92,8 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-
+*/
+/*
 textarea {
     resize: none;
     width: 300px;
@@ -107,8 +108,91 @@ label {
     background-color: transparent;
 }
 
+
 #email {
     background-color: transparent;
     display: flex;
     color: white;
+}
+
+.email-input {
+    background-color: #800080;
+    display: flex;
+    width: 50%;
+}
+*/
+
+/*Form*/
+.contact-section {
+  width: 80%;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem 1rem;
+  background-color: #800080;
+}
+
+.contact-intro > * + * {
+  margin-top: 1rem;
+}
+
+.contact-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.contact-description {
+  color: rgb(255, 255, 240);
+}
+
+.form-group-container {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+}
+
+.form-input,
+.form-textarea {
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.form-input::placeholder,
+.form-textarea:focus-visible {
+  color: #6b7280;
+}
+
+.form-input:focus-visible,
+.form-textarea:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.form-textarea {
+  min-height: 120px;
+}
+
+.form-submit {
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: #3124ca;
+  color: #fff;
+  padding: 13px 5px;
+  border-radius: 0.375rem;
 }
