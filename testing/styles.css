@@ -70,3 +70,8 @@
   padding: 13px 5px;
   border-radius: 0.375rem;
 }
+
+footer {
+  font-style: italic;
+  font-size: 15px;
+}
