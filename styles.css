@@ -5,6 +5,7 @@ html{
     font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
+
 }
 
  *, ::before,::after {
@@ -211,4 +212,11 @@ label {
 table, th, td {
   border: none;
   border-collapse: collapse; /* Removes default spacing between cells */
+}
+
+footer {
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
+  flex: 0;
 }
