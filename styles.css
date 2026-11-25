@@ -219,4 +219,17 @@ footer {
   font-size: 15px;
   text-align: center;
   flex: 0;
+  margin-bottom: 7px;
+}
+
+.big-box {
+  display: flex;
+  height: 100%;
+  margin: 325px
+}
+
+.small-box {
+  display: flex;
+  height: 100%;
+  margin: 20px;
 }
