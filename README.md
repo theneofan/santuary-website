@@ -8,4 +8,6 @@ Mood Board
 
 ![sitemap](image/README/sitemap.png)
 
+![WireFrame](</image/README/NAVBAR.png>)
+
 [app.milanote.com/1XrFxJ1kLdXU5O/mood-board](https://app.milanote.com/1XrFxJ1kLdXU5O/mood-board)
